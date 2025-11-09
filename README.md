@@ -17,4 +17,37 @@ Setup Steps:
 If you run into any issues, feel free to reach out.
 Good luck!
 
+simple tutorial:
+
+Install "3DxWare64_v10-9-8_b715.exe"
+
+Install "arduino-1.8.19-windows.exe"
+
+Edit "C:\Program Files (x86)\Arduino\hardware\arduino\avr\boards.txt"
+
+Change VID -> 0x256f & PID -> 0xc631 in the following section:
+
+micro.build.mcu=atmega32u4
+micro.build.f_cpu=16000000L
+micro.build.vid=0x2341
+micro.build.pid=0x8037
+micro.build.usb_product="Arduino Micro"
+micro.build.board=AVR_MICRO
+micro.build.core=arduino
+micro.build.variant=micro
+micro.build.extra_flags={build.usb_flags}
+
+Arduino IDE
+
+Tools -> Board -> Arduino Micro
+Tools -> Port -> Select Arduino COM-Port
+File -> Open... -> "fromspacepilottocomputer_V005.ino"
+Upload
+
+Copy "3dxWareConnectApp" folder to "C:"
+
+Connect legacy 3DConnexion Device
+
+Run "C:\3dxWareConnectApp\3dxWareConnect_V005.exe"
+
 <img src="spacePilot_to_SpaceMouse Pro Wireless-2.jpg" alt="Key Mappings for spacepilot" width="400"/> <img src="spacePilot_to_SpaceMouse Pro Wireless.jpg" alt="Key Mappings for spacepilot" width="400"/>
