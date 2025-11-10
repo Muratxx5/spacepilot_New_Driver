@@ -37,15 +37,15 @@ simple tutorial:
     micro.build.variant=micro
     micro.build.extra_flags={build.usb_flags}
 
-4) Arduino IDE
+5) Arduino IDE
 
     Tools -> Board -> Arduino Micro
     Tools -> Port -> Select Arduino COM-Port
     File -> Open... -> "fromspacepilottocomputer_V005.ino"
     Upload
 
-5) Copy "3dxWareConnectApp" folder to "C:\"
-6) Connect legacy 3DConnexion Device
-7) Run "C:\3dxWareConnectApp\3dxWareConnect_V005.exe"
+6) Copy "3dxWareConnectApp" folder to "C:\"
+7) Connect legacy 3DConnexion Device
+8) Run "C:\3dxWareConnectApp\3dxWareConnect_V005.exe"
 
 <img src="spacePilot_to_SpaceMouse Pro Wireless-2.jpg" alt="Key Mappings for spacepilot" width="400"/> <img src="spacePilot_to_SpaceMouse Pro Wireless.jpg" alt="Key Mappings for spacepilot" width="400"/>
