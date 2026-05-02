@@ -14,6 +14,7 @@ Setup Steps:
 - After the connection is established, you’ll see that the SpaceMouse Pro Wireless (cabled) device is listed instead of the SpacePilot in the 3DxWare software. The system is now ready—you can use the SpacePilot device.
 - The Esc, Shift, Ctrl, and Alt keys are set as default keyboard keys. Beyond that, you can assign all the buttons on the SpacePilot to match those of the SpaceMouse Pro Wireless in the 3DxWare software.
 - I’ll prepare a visual guide later showing which SpacePilot button corresponds to which SpaceMouse Pro Wireless button. For now, this setup should suffice.
+- In version 3dxWareConnectApp_V06, the 3dxWare action names corresponding to the active application were displayed on the LCD screen of the SpacePilot device.
 If you run into any issues, feel free to reach out.
 Good luck!
 
