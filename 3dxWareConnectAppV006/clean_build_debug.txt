@@ -1,0 +1,9 @@
+WinMain started
+dxw_init done
+SpaceMouse opened
+Tray icon added
+Timers started
+LCD init success
+Arduino init success
+Table drawn, starting thread
+Message loop starting
