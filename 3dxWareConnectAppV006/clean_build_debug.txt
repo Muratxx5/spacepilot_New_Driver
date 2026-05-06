@@ -7,3 +7,4 @@ LCD init success
 Arduino init success
 Table drawn, starting thread
 Message loop starting
+Message loop ended
